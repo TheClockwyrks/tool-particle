@@ -6,7 +6,7 @@
 //! [`Dimensionality::D3`], carrying the full `x`/`y`/`z` space. The preview billboards
 //! each particle through `model-core`'s `wgpu` + Mesa renderer from an orbit camera;
 //! `render` emits `system.json`. See
-//! `apps/docs/src/content/docs/testing/asset-generation/particle-binaries.md`.
+//! <https://docs.testcabinet.ai/testing/asset-generation/particle-binaries/>.
 
 use std::path::PathBuf;
 use std::process::ExitCode;

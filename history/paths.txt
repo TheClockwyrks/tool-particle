@@ -1,0 +1,3 @@
+crates/particle-core/
+crates/particle-2d/
+crates/particle-3d/

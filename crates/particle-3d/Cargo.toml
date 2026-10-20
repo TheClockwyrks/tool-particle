@@ -1,15 +1,17 @@
 [package]
 name = "test-cabinet-particle-3d"
+description = "The particle-3d binary a run image carries to author a volumetric particle effect."
 edition.workspace = true
 version.workspace = true
 license.workspace = true
+repository.workspace = true
 publish.workspace = true
 
 # The `particle-3d` binary: authoring a volumetric particle effect (`asset_kind =
 # "particle-3d"`). A thin CLI over `test-cabinet-particle-core` (the shared system
 # model and simulator); it billboards its preview through `model-core`'s wgpu+Mesa
 # renderer. The planar sibling is `particle-2d`. See
-# `apps/docs/src/content/docs/testing/asset-generation/particle-binaries.md`.
+# https://docs.testcabinet.ai/testing/asset-generation/particle-binaries/
 [[bin]]
 name = "particle-3d"
 path = "src/main.rs"

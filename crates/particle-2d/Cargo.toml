@@ -1,15 +1,17 @@
 [package]
 name = "test-cabinet-particle-2d"
+description = "The particle-2d binary a run image carries to author a planar particle effect."
 edition.workspace = true
 version.workspace = true
 license.workspace = true
+repository.workspace = true
 publish.workspace = true
 
 # The `particle-2d` binary: authoring a planar particle effect (`asset_kind =
 # "particle-2d"`). A thin CLI over `test-cabinet-particle-core` (the shared system
 # model and simulator); it composites its preview in a 2D raster path. The
 # volumetric sibling is `particle-3d`. See
-# `apps/docs/src/content/docs/testing/asset-generation/particle-binaries.md`.
+# https://docs.testcabinet.ai/testing/asset-generation/particle-binaries/
 [[bin]]
 name = "particle-2d"
 path = "src/main.rs"

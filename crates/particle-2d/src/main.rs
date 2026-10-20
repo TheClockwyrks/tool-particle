@@ -5,7 +5,7 @@
 //! [`Command`] vocabulary to the seeded `particle-2d.config.json` and runs it in
 //! [`Dimensionality::D2`], so the effect is strictly planar (`z` inputs are rejected).
 //! The preview composites in the crate's 2D raster path; `render` emits `system.json`.
-//! See `apps/docs/src/content/docs/testing/asset-generation/particle-binaries.md`.
+//! See <https://docs.testcabinet.ai/testing/asset-generation/particle-binaries/>.
 
 use std::path::PathBuf;
 use std::process::ExitCode;

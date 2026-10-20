@@ -1,0 +1,7 @@
+# The kit this repository was rendered from, written by the superrepo's
+# scripts/repos/render.py from the answers in .copier-answers.yml. `name`
+# decides the dependency edges the dependency-edges gate permits, and `kind`
+# the shape the kit gave the repository.
+name = "tool-particle"
+kind = "tool"
+description = "The particle tool: the particle-2d and particle-3d binaries a run image carries to author, simulate and preview particle effects."
